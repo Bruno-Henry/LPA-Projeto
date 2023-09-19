@@ -1,8 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 import pygame as pygame
-from pygame import Surface, Rect
-from pygame.font import Font
 from code.Const import WIN_WIDTH, WIN_HEIGHT
 from code.Menu import Menu
 
