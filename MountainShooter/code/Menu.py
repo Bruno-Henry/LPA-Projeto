@@ -19,7 +19,7 @@ class Menu:
         pygame.mixer_music.get_volume()
         while True:
             self.window.blit(source=self.surf, dest=self.rect)
-            self.menu_text(50, "Mountain", (255, 128, 0), ((WIN_WIDTH / 2), 70))
+            self.menu_text(50, "Mountain", (255, 128, 0), ((WIN_WIDTH / 2), 70))  # nome
             self.menu_text(50, "Shooter", (255, 128, 0), ((WIN_WIDTH / 2), 120))
             pygame.display.flip()
         pass
